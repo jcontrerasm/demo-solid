@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "paths": {
+      "@app/*": ["src/*"]
+    },
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2015",
+      "es2015.promise"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "transpileOnly": true,
+  }
+}
