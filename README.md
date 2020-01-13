@@ -20,3 +20,5 @@ Cualquier clase que sea hija de una clase padre debería poder usarse en lugar d
 Ninguna clase debe implementar métodos que no utilice.
 
 **5. Inversión de Dependencias:**
+a.- Las clases de alto nivel no deben depender de las de bajo nivel.
+b.- Las abstracciones no deben depender de los detalles. Los detalles deben depender de las abstracciones.
